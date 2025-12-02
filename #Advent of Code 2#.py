@@ -1,5 +1,3 @@
-import numpy as np
-
 with open('/home/robdev/Desktop/Advent of Code/Advent_of_Code_ID_List.txt') as f:
     lines = f.read().split(',')
 
