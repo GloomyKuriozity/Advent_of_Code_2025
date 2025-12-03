@@ -1,3 +1,5 @@
+import time
+timed =time.perf_counter()
 with open('/home/robdev/Desktop/Advent of Code/Advent_of_Code_Joltage_List.txt') as f:
     lines = [line.strip() for line in f]
 
@@ -33,4 +35,5 @@ for line in lines:
 
     result += bank_value
 
+print("Finnished in ", (time.perf_counter()-timed)*1000, " ms")
 print(result)
