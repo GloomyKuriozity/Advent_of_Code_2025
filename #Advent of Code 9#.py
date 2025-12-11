@@ -46,7 +46,7 @@ for idx in range(n):
             if grid[cy1][cx] == '.':
                 grid[cy1][cx] = 'X'
     else:
-        raise ValueError("Input guarantees neighbors share row or column, got diagonal.")
+        raise ValueError("Well damn.")
 
 # Flood-fill from the compressed border to mark outside as 'O'
 q = deque()
